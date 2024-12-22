@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,6 +10,20 @@ export default function Home() {
               Prenez le controle de votre budget merde
             </h1>
             <p className="py-6 text-gray-800 text-center"> suivez vos bidget et dépenses pour éviter kles problèmes qvzc les vanques </p>
+            <div className="flex justify-center items-center">
+              <Link 
+              href={""} 
+              className="btn btn-sm md:btn-md btn-outline btn-accent font-bold">
+                {" "} 
+                Se connecter
+              </Link>
+              <Link 
+              href={""} 
+              className="btn btn-sm md:btn-md btn-outline ml-2 font-bold">
+                {" "} 
+                S'inscrire
+              </Link>
+            </div>
           </div>
         </div>
       </div>
